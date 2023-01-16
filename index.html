@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="/favicon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sofia+Sans+Semi+Condensed:wght@300&display=swap"
+        rel="stylesheet">
+    <title>Facebook - log in or sign up</title>
+</head>
+
+<!-- <body class="bg-gray-100 font-'Sofia Sans Semi Condensed', sans-serif;"> -->
+<body class="bg-gray-100 font-normal">
+    <!-- Container -->
+    <div class="container mt-24 flex mx-auto items-center justify-center">
+
+        <!-- left -->
+        <div class="w-1/2">
+            <!-- image -->
+            <img src="/facebook.svg" alt="Facebook logo" class="w-[19rem] h-[106px]">
+            <p class="text-2xl mx-8">Facebook helps you connect and share with the people in your life.
+            </p>
+        </div>
+
+        <!-- right -->
+        <div class="flex flex-col bg-white pt-[10px] pb-[24px] px-4 py-4 w-[396px] shadow-xl text-lg relative rounded-xl">
+
+            <!-- Email/Phone -->
+            <input type="text" class="my-2 px-4 h-12 border border-1 rounded-lg outline-blue-600 border-gray-200"
+                placeholder="Email Address or Phone number">
+
+            <!-- Password -->
+            <input type="password" class="my-2 px-4 h-12 border border-1 rounded-lg outline-blue-600 border-gray-200"
+                placeholder="Password">
+
+            <!-- Login -->
+            <button class="bg-blue-600 hover:bg-blue-700 text-white font-bold my-2 p-3 rounded-md text-xl">Log
+                in</button>
+
+            <!-- Forgot -->
+            <a href="#" class="mx-auto text-sm text-blue-700 hover:underline">Forgotten password?</a>
+            <hr class="my-2">
+
+            <!-- create new account -->
+            <button class="bg-green-500 hover:bg-green-600 text-white mx-auto my-2 p-3 w-fit rounded-md text-xl">Create
+                new account</button>
+        </div>
+
+        <!-- create brand/celebrity -->
+        <span class="absolute text-sm -bottom-10 my-[10rem] ml-[38rem]"><span
+                class="font-bold hover:underline cursor-pointer">Create a
+                Page</span> for a celebrity, brand or business.</span>
+
+    </div>
+</body>
+
+</html>
